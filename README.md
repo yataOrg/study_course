@@ -29,6 +29,7 @@
 
 ---
 > 一些不错的关于scrapy的博客文章
+* http://www.cnblogs.com/tuohai666/tag/%E7%88%AC%E8%99%AB/
 ---
 > 淘宝的一些视频资源
 ```
