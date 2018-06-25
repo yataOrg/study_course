@@ -12,6 +12,7 @@
 ---
 > 一些不错的关于flask的博客文章
 * http://www.bjhee.com/flask-ad6.html
+* https://blog.csdn.net/fireindarkk/article/details/78497259
 
 ---
 > 淘宝的一些视频资源
