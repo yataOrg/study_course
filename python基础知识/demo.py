@@ -78,13 +78,183 @@ print (Counter(Var1))
 print (Counter(Var2))
 '''
 
+'''
 list_2d = [[0 for x in range(5)] for i in range(5)]
 print(list_2d)
 
 list_2d_2 = [[0 for x in range(5)] for i in range(5)]
 print(list_2d_2)
+'''
+
+# ---
+'''
+tup = "a", "b", "c", "d"
+print(type(tup))
+print(tup)
+'''
+
+# ---
+'''
+c = {"google", "baidu", "ali"}
+d = {"qtt", "pingan", "baidu", "google"}
+# st_end = c.intersection_update(d)
+# st_end = c.difference(d)
+c.difference_update(d)
+print(len(c))
+'''
+# ---
+'''
+a = {"lidan", "zhuenni", "zhuyuhui"}
+b = {"aaa"}
+
+c = a.isdisjoint(b)
+print(c)
+'''
+
+# ---
+'''
+a = {'a', 'b', 'c', 'd'}
+b = {'a', 'b', 'c', 'd', 'f'}
+
+st_end = a.issubset(b)
+print(st_end)
+'''
+
+# ---
+'''
+a,b = 0, 1
+while b < 1000:
+	print(b)
+	a, b = b, a+b
+'''
+
+'''
+a = 10; b = 18; c = 22
+print(a,b,c)
+'''
+
+# ---
+'''
+def fab(n):
+	
+	if n < 1:
+		print("输入有误!")
+		return -1
+	if 1 == n or 2 == n:
+		return 1
+
+	else:
+		return fab(n - 1) + fab(n - 2)
+
+print(fab(6))
+'''
+
+# ---
+'''
+list = ['a', 'b', 'c', 'd', 'e']
+item = iter(list)
+print(next(item))
+print(next(item))
+print(next(item))
+'''
+
+# ---
+'''
+list = ['a', 'b', 'c', 'd', 'e']
+list1 = ('a', 'b', 'c', 'd', 'e')
+list2 = {'a': 'a1', 'b': 'b1'}
+it = iter(list1)
+for x in it:
+	print(x)
+'''
+# ---
+'''
+class MyNumbers:
+
+	def __iter__(self):
+		self.a = 1
+		return self
 
 
+	def next(self):
+		if self.a <= 20:
+			x = self.a
+			self.a += 1
+			return x
+		else:
+			raise StopIteration
+
+
+item = MyNumbers()
+it = iter(item)
+for x in it:
+	print(x)
+'''
+
+# ---
+'''
+class Fab(object):
+
+	def __init__(self, max):
+		self.max  = max
+		self.n, self.a, self.b = 0, 0, 1
+
+	def __iter__(self):
+		return self
+
+	def next(self):
+		if self.n < self.max:
+			r = self.b
+			self.a, self.b = self.b, self.a + self.b
+			self.n = self.n + 1
+			return r
+
+		raise StopIteration()
+
+for x in Fab(50):
+	print(x)
+'''
+
+# ---
+'''
+def Fab(max):
+	n, a, b = 0, 0, 1
+	while n < max:
+		yield b
+		a, b = b, a + b
+		n = n + 1
+
+for x in Fab(55):
+	print(x)
+'''
+
+# ---
+'''
+from collections import deque
+queue = deque(['a1', 'b1', 'c1', 'd1'])
+queue.append("e1")
+queue.append('f1')
+# print(queue.popleft())
+print(queue.popleft())
+'''
+
+# ---
+'''
+import sys
+
+print("命令行参数如下：")
+for i in sys.argv:
+	print(i)
+
+print("\n\npython3的路径为:", sys.path, '\n')
+'''
+
+### ---
+'''
+import hello
+c = dir(hello)
+print(c)
+'''
 
 
 
