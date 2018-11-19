@@ -25,15 +25,15 @@ else:
 # set可以进行集合运算
 # a = set('abracadabra')
 # b = set('alacazam')
- 
+
 # print(a)
- 
+
 # print(a - b)     # a和b的差集
- 
+
 # print(a | b)     # a和b的并集
- 
+
 # print(a & b)     # a和b的交集
- 
+
 # print(a ^ b)     # a和b中不同时存在的元素
 
 # ---
@@ -136,7 +136,7 @@ print(a,b,c)
 # ---
 '''
 def fab(n):
-	
+    
 	if n < 1:
 		print("输入有误!")
 		return -1
@@ -249,22 +249,29 @@ for i in sys.argv:
 print("\n\npython3的路径为:", sys.path, '\n')
 '''
 
-### ---
+# ---
 '''
 import hello
 c = dir(hello)
 print(c)
 '''
 
+# ---
+'''
+from urllib import request
 
+response = request.urlopen("http://www.baidu.com/")
+fi = open("demo.txt", 'w')
+page = fi.write(str(response.read()))
+fi.close()
+'''
+# ---
+'''
+import pickle
 
-
-
-
-
-
-
-
-
-
+data = ['a', 'b', 'c', 'd']
+data1 = {'a': 'a1', 'b': 'b1', 'c': 'c1', 'd': 'd1'}
+p_str = pickle.dumps(data1)
+print(p_str)
+'''
 
