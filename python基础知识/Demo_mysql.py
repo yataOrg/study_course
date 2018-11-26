@@ -16,5 +16,4 @@ data = cursor.fetchall()
 
 print(data)
 
-a = '2018-11-14'
-timeArray = time.strptime(a, "%Y-%m-%d %H:%M:%S")
+db.close()
