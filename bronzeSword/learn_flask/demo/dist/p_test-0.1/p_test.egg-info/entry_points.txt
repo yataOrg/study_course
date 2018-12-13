@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        demo_click=demo_click:hello
+    

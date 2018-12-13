@@ -13,12 +13,23 @@
 > 一些不错的关于flask的博客文章
 * http://www.bjhee.com/flask-ad6.html
 * https://blog.csdn.net/fireindarkk/article/details/78497259
+* https://www.cnblogs.com/sellsa/category/1244063.html
 * [手册](http://dormousehole.readthedocs.io/en/latest/quickstart.html)
+* [博客文档](https://spacewander.github.io/explore-flask-zh/13-deployment.html)
+* [flask源码解析](http://cizixs.com/2017/01/13/flask-insight-context/)
+
 ---
 > 淘宝的一些视频资源
 ```
 链接: https://pan.baidu.com/s/10YsSnT7TfW7Gylg6yGIhEA   密码:81zr
 ```
+
+> flask的一些开源项目
+* http://flask.pocoo.org/community/poweredby
+* https://github.com/rochacbruno/quokka
+* https://github.com/skylines-project/skylines
+* https://github.com/humiaozuzu/awesome-flask
+
 
 ---
 > scrapy的学习路线
@@ -43,6 +54,12 @@
 3.教程第三部分：第三阶段_Python数据分析实战
 链接： https://pan.baidu.com/s/1dGP3rnN  密码：mqtf
 ```
+---
+### 其他一些资源
+```
+http://pro.kaikeba.com/course/python/?ss=fbg1
+```
+
 
 
 ---

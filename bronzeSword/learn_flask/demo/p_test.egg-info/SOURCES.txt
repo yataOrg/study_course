@@ -1,0 +1,8 @@
+demo_click.py
+setup.py
+p_test.egg-info/PKG-INFO
+p_test.egg-info/SOURCES.txt
+p_test.egg-info/dependency_links.txt
+p_test.egg-info/entry_points.txt
+p_test.egg-info/requires.txt
+p_test.egg-info/top_level.txt

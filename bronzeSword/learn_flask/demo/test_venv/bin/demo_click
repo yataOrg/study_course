@@ -1,0 +1,12 @@
+#!/usr/local/var/www/my_code/study_course/bronzeSword/learn_flask/demo/test_venv/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'p-test','console_scripts','demo_click'
+__requires__ = 'p-test'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('p-test', 'console_scripts', 'demo_click')()
+    )
