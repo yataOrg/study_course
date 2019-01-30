@@ -11,14 +11,14 @@ app.config['MAIL_PORT'] = 25  # 电子邮件服务器的端口
 app.config['MAIL_USE_TLS'] = True  # 启用传输层安全
 # 注意这里启用的是TLS协议(transport layer security)，而不是SSL协议所以用的是25号端口
 app.config['MAIL_USERNAME'] = 'yata818@163.com'  # 你的邮件账户用户名
-app.config['MAIL_PASSWORD'] = '5201314qqq'  # 邮件账户的密码,这个密码是指的授权码!授权码!授权码!
+app.config['MAIL_PASSWORD'] = 'xxx'  # 邮件账户的密码,这个密码是指的授权码!授权码!授权码!
 
 mail = Mail(app)
 
 
 @app.route('/')
 def index():
-    msg = Message('你好', sender='yata818@163.com', recipients=['yanzhipeng@qutoutiao.net'])
+    msg = Message('你好', sender='yata818@163.com', recipients=['limihu@163.com'])
     # 这里的sender是发信人，写上你发信人的名字，比如张三。
     # recipients是收信人，用一个列表去表示。
     msg.body = '你好'
