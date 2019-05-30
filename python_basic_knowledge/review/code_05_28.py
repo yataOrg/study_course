@@ -3,7 +3,7 @@
 # @Author: yata
 # @Date:   2019-05-28 09:06:14
 # @Last Modified by:   yata
-# @Last Modified time: 2019-05-29 19:12:00
+# @Last Modified time: 2019-05-30 21:56:02
 
 '''
 python3 -c "import sys; print(sys.path)"
@@ -162,6 +162,8 @@ seed([x])	改变随机数生成器的种子seed。如果你不了解其原理，
 shuffle(lst)	将序列的所有元素随机排序
 uniform(x, y)	随机生成下一个实数，它在[x,y]范围内。
 '''
+
+
 
 
 
