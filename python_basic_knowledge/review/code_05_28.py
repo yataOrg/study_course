@@ -3,13 +3,14 @@
 # @Author: yata
 # @Date:   2019-05-28 09:06:14
 # @Last Modified by:   yata
-# @Last Modified time: 2019-06-03 08:15:08
+# @Last Modified time: 2019-06-26 10:04:25
 
 '''
 python3 -c "import sys; print(sys.path)"
 '''
 
 a = b =c = 5
+
 
 a1, b1, c1 = 1, 2, 3
 print(a1, b1, c1)
