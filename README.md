@@ -17,7 +17,6 @@
 * [手册](http://dormousehole.readthedocs.io/en/latest/quickstart.html)
 * [博客文档](https://spacewander.github.io/explore-flask-zh/13-deployment.html)
 * [flask源码解析](http://cizixs.com/2017/01/13/flask-insight-context/)
-
 ---
 > 淘宝的一些视频资源
 ```
